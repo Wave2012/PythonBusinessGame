@@ -1,0 +1,3 @@
+pip install inquirer
+playerName = input("Name your character: ")
+storeType = inquirer.list_input("What type of business do you want to run?", choices=['Tech', 'Art', 'Food', 'Other - Please Specify'])
